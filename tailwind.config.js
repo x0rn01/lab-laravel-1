@@ -32,6 +32,9 @@ module.exports = {
             maxWidth: {
                 custom: '62.5rem'
             },
+            fontSize: {
+                xxs: ['0.625rem', {lineHeight: '1rem'}]
+            },
             fontFamily: {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
             },
@@ -44,5 +47,9 @@ module.exports = {
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/line-clamp')
+    ],
+
 };
