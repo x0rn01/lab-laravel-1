@@ -38,16 +38,18 @@
                     border-gray-200 transition duration-150 easi-in">Vote</button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="" class="flex-none">
-                    <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="">
+                        <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="" class="hover:underline">A random title goes over here</a>
                     </h4>
                     <div class="text-gray-600 mt-3 line-clamp-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consectetur debitis dolores enim eos est ex facilis fugit illum itaque minus molestias, officiis quam recusandae sequi sunt temporibus totam vel. Ad, alias aliquam aliquid culpa deserunt esse, facere impedit inventore ipsum itaque laborum maxime minus molestiae nisi odit quae quos recusandae reprehenderit rerum sequi tempora temporibus, vel vitae? At cupiditate, dignissimos est facere, ipsum laboriosam neque nisi obcaecati optio repellat ut, voluptatum. Accusantium asperiores aspernatur beatae corporis culpa esse explicabo, facere fugiat hic illo incidunt magni nam odio placeat quae quas quasi quia, quod ratione rerum tempora vitae, voluptatem! Repellendus!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa dolorem doloribus odio omnis quidem recusandae saepe sit tempora vero? Debitis distinctio iste nemo nisi, officiis quam rerum similique vel? Ab aperiam assumenda, autem dolorem error et expedita fugit id inventore ipsum iste labore minima modi natus nihil nulla obcaecati odit officia optio pariatur praesentium quam quis quo quod recusandae reiciendis repellat repellendus reprehenderit sequi soluta tempore temporibus velit voluptas? Aperiam aspernatur aut deserunt dolorum, eligendi exercitationem hic numquam perspiciatis reprehenderit unde! Amet aut commodi, consequuntur deleniti doloremque eligendi in itaque repellendus voluptatem? Animi deleniti praesentium, recusandae repudiandae rerum tempore!
                     </div>
                     <div class="flex items-center justify-between mt-6">
                         <div class="flex items-center text-xs font-semibold space-x-2 text-gray-400">
@@ -74,7 +76,6 @@
                     </div>
                 </div>
             </div>
-
         </div> <!-- end idea container -->
     </div> <!-- end ideas container -->
 </x-app-layout>
