@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" xmlns:livewire="http://www.w3.org/1999/html">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <livewire:styles />
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
@@ -52,10 +53,10 @@
         </header>
 
         <main class="container mx-auto max-w-custom flex">
-            <div class="w-70 mr-5">
+            <div class="w-70 mx-auto md:mx-0 md:mr-5">
 
                 <div
-                    class="bg-white border-2 border-blue rounded-xl mt-16"
+                    class="bg-white md:sticky md:top-8 border-2 border-blue rounded-xl mt-16"
                     style="
                     border-image-source: linear-gradient(to bottom, rgba(50, 138, 241, 0.22), rgba(99, 123, 255, 0));
                     border-image-slice: 1;
@@ -133,5 +134,6 @@
             </div>
 
         </main>
+        <livewire:scripts />
     </body>
 </html>
