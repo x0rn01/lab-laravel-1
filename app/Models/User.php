@@ -44,4 +44,15 @@ class User extends Authenticatable
     public function ideas() {
         return $this->hasMany(Idea::class);
     }
+
+    public function getAvatar() {
+        $randomInteger = rand(1,36);
+
+        return 'https://www.gravatar.com/avatar/'
+            .md5($this->email)
+            .'?s=200'
+            .'&d=https://s3.amazonaws.com/laracasts/images/forum/avatars/default-avatar-'
+            .$randomInteger
+            .'.png';
+    }
 }
